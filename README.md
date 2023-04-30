@@ -7,23 +7,14 @@ An Implementation of [Variational Autoencoders for Collaborative Filtering](http
 
 This repo gives you an implementation of VAE for Collaborative Filtering in PyTorch. It's model is quite simple but powerful so i made a success reproducing it with PyTorch. Every data preprocessing step and code follows exactly from [Authors' Repo](https://github.com/dawenl/vae_cf).
 
-I implemented MultiDAE too but didn't test it so MultiDAE is excluded from `main.py` but its code is available in `models.py`
-
-# Requirements
-
-```
-PyTorch 0.4 & Python 3.6
-Numpy
-TensorboardX
-```
 
 # Examples
 
-`python main.py --cuda` for full training.
+`python main.py` 
 
 # Dataset
 
-You should execute `python data.py` first to download necessary data and preprocess MovieLens-20M dataset.
+You should execute `python data.py` to preprocess MovieLens-20M dataset.
 
 [ml-20m.zip Download](https://grouplens.org/datasets/movielens/20m/)
 
